@@ -29,7 +29,7 @@ function Albums({ title, endpoint }) {
           className={styles.showAll}
           onClick={() => setShowAll(!showAll)}
         >
-          {showAll ? "Show All" : "Collapse"}
+          {showAll ? "Collapse" : "Show All"}
         </button>
       </div>
 
