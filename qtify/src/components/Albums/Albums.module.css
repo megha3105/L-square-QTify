@@ -1,0 +1,57 @@
+.section {
+  padding: 40px 32px;
+  background-color: white;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.showAll {
+  border: none;
+  background: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sliderContainer {
+  position: relative;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.nextButton {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  border: none;
+
+  background-color: var(--color-black);
+  color: white;
+
+  font-size: 28px;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 2;
+}
